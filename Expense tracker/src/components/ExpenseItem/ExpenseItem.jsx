@@ -9,6 +9,7 @@ const ExpenseItem = ({ title, amount, date }) => {
         <h2>{title}</h2>
         <div className={styles['expense-item__price']}>${amount}</div>
       </div>
+      <button onClick={() => console.log('clicked')}>Change Title</button>
     </div>
   );
 };

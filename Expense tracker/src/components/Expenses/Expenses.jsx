@@ -4,7 +4,6 @@ import styles from './Expenses.module.css';
 const Expenses = ({ expenses }) => {
   return (
     <div className={styles.expenses}>
-      <h2>Let's get started!</h2>
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
